@@ -2,48 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descarga tu archivo</title>
+    <title>Página de Descargas</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-            background-color: #f4f4f9;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            font-size: 16px;
-        }
-        .btn-descarga {
-            display: inline-block;
-            background-color: #e44d26; /* Cambiado a naranja/rojo para asegurar que ves la versión nueva */
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            margin-top: 20px;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        .btn-descarga:hover {
-            background-color: #b83b1e;
-        }
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .boton { background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px; font-size: 16px; }
+        .boton:hover { background-color: #0056b3; }
     </style>
 </head>
 <body>
-
-    <h1>Bienvenido a mi sitio web</h1>
-    <p>Haz clic abajo para descargar el archivo de texto (.txt):</p>
+    <h1>Mis Descargas</h1>
+    <p>Haz clic en los botones para descargar tus archivos:</p>
     
-    <!-- ENLACE NUEVO Y CORREGIDO CON LA RUTA REAL DE DRIVE -->
-    <a href="https://drive.usercontent.google.com/download?id=112-w3Va8KMkqpSjnVadmC1LSRFuRb61U"  btn-descarga" download>
-        📥 Descargar Archivo TXT
-    </a>
+    <!-- Primer archivo -->
+    <a href="https://drive.usercontent.google.com/download?id=112-w3Va8KMkqpSjnVadmC1LSRFuRb61U" class="boton">Descargar Archivo 1</a>
+    
+    <br>
 
+    <!-- Segundo archivo -->
+    <a href="https://drive.usercontent.google.com/download?id=1BjTfGZwF-PwbS6PRFSkiO3aX7iHtTqAj" class="boton">Descargar Archivo 2</a>
 </body>
 </html>
